@@ -209,3 +209,27 @@ footer p{
     align-items: center;
     gap: 12px;
 }
+
+@media (max-width: 768px){
+
+    nav{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    header{
+        padding: 15px 20px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+}
